@@ -10,5 +10,5 @@ function verificarIdades(array){
 
 
 let years = [1998, 2005, 2012];
-let currentYear = prompt("Digite o ano atual: ");
+let currentYear = parseInt(prompt("Digite o ano atual: "));
 verificarIdades(years);
