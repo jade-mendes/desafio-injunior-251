@@ -60,19 +60,6 @@ function calcularPontuacaoMedia(time){
     }
 }
 
-/* adicionarJogador(meuTime, "Thiago Almada", 23, "Meio-campo", 3);
-adicionarJogador(meuTime, "Júnior Santos", 28, "Atacante", 10);
-adicionarJogador(meuTime, "Marlon Freitas", 26, "Meio-campo", 2);
-
-let zagueiros = buscarPorPosicao(meuTime, "Zagueiro");
-
-adicionarJogador(meuTime, "John", 26, "Goleiro", 0);
-
-listarTime(meuTime);
-
-let pontuacaoMedia = calcularPontuacaoMedia(meuTime);
-console.log(`Pontuação média do time: ${pontuacaoMedia}`); */
-
 let meuTime = [];
 let input, idadeJogador, pontuacaoJogador = 0;
 let nomeJogador = '';
